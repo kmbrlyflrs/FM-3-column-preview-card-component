@@ -1,0 +1,87 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.row{
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.col{
+    padding:10vh;
+}
+
+h1, button{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+h1, body{
+    color:hsl(0, 0%, 95%);
+}
+
+p, button{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.orange{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.teal{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.green{
+    background-color:hsl(179, 100%, 13%);
+}
+
+
+.orange-btn{
+    color:hsl(31, 77%, 52%);
+}
+
+.teal-btn{
+    color:hsl(184, 100%, 22%);
+}
+
+.green-btn{
+    color:hsl(179, 100%, 13%);
+}
+
+button{
+    border: 2px solid white ;
+    background-color: hsl(0, 0%, 95%);
+    color:transparent;
+    border-radius: 40px;
+    padding:15px 30px;
+    margin-top: 80px;
+}
+
+button:hover{
+    border: 2px solid white ;
+    color:white;
+    background-color: transparent;
+}
+
+@media only screen and (min-width : 992px){
+    .row{
+        display: flex;
+        margin:15vh 25vh;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width:992px){
+    .row{
+        display: flex;
+        margin:5vh;
+    }
+}
+
+@media only screen and (max-width : 768px){
+    .row{
+        margin:5vh;
+    }
+}
